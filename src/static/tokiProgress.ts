@@ -27,7 +27,7 @@ export const webProgress: { skill: string; progress: number }[] = [
     progress: 90,
   },
   {
-    skill: "WShopify",
+    skill: "Shopify",
     progress: 70,
   },
 ];
