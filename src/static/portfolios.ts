@@ -34,47 +34,47 @@ export const projects: {
 }[] = [
   {
     image: graphics1,
-    category: "Graphics",
+    category: "Flier",
     otherImages: [graphics1, graphics2, graphics3],
   },
   {
     image: graphics4,
-    category: "Graphics",
+    category: "Logo & Branding",
     otherImages: [graphics4, graphics5, graphics6],
   },
   {
     image: graphics7,
-    category: "Graphics",
+    category: "Photo Manipulation",
     otherImages: [graphics7, graphics8, graphics9],
   },
   {
     image: graphics10,
-    category: "Graphics",
+    category: "Flier",
     otherImages: [graphics10, graphics11, graphics12],
   },
   {
     image: graphics13,
-    category: "Graphics",
+    category: "Logo & Branding",
     otherImages: [graphics13, graphics14, graphics15],
   },
   {
     image: graphics16,
-    category: "Graphics",
+    category: "Logo & Branding",
     otherImages: [graphics16, graphics17, graphics18],
   },
   {
     image: graphics19,
-    category: "Graphics",
+    category: "Flier",
     otherImages: [graphics19, graphics20, graphics21],
   },
   {
     image: graphics22,
-    category: "Graphics",
+    category: "Photo Manipulation",
     otherImages: [graphics22, graphics23, graphics24],
   },
   {
     image: graphics25,
-    category: "Graphics",
+    category: "Logo & Branding",
     otherImages: [graphics25, graphics26, graphics27],
   },
 ];

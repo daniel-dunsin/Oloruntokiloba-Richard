@@ -13,7 +13,7 @@ const Home = () => {
       <HomeContainer>
         <div className="home-text">
           <h1>Kayode Oloruntokiloba Richard</h1>
-          <p>Graphics Designer | Website Designer</p>
+          <p>Graphics Designer</p>
           <ul className="links-container">
             <li>
               <a href="https://www.linkedin.com/in/oloruntokiloba-kayode-060099234">
