@@ -1,80 +1,122 @@
-import graphics1 from "../assets/images/graphics-1.jpg";
-import graphics2 from "../assets/images/graphics-2.jpg";
-import graphics3 from "../assets/images/graphics-3.jpg";
-import graphics4 from "../assets/images/graphics-4.jpg";
-import graphics5 from "../assets/images/graphics-5.jpg";
-import graphics6 from "../assets/images/graphics-6.jpg";
-import graphics7 from "../assets/images/graphics-7.jpg";
-import graphics8 from "../assets/images/graphics-8.jpg";
-import graphics9 from "../assets/images/graphics-9.jpg";
-import graphics10 from "../assets/images/graphics-10.jpg";
-import graphics11 from "../assets/images/graphics-11.jpg";
-import graphics12 from "../assets/images/graphics-12.jpg";
-import graphics13 from "../assets/images/graphics-13.jpg";
-import graphics14 from "../assets/images/graphics-14.jpg";
-import graphics15 from "../assets/images/graphics-15.jpg";
-import graphics16 from "../assets/images/graphics-16.jpg";
-import graphics17 from "../assets/images/graphics-17.jpg";
-import graphics18 from "../assets/images/graphics-18.jpg";
-import graphics19 from "../assets/images/graphics-19.jpg";
-import graphics20 from "../assets/images/graphics-20.jpg";
-import graphics21 from "../assets/images/graphics-21.jpg";
-import graphics22 from "../assets/images/graphics-22.jpg";
-import graphics23 from "../assets/images/graphics-23.jpg";
-import graphics24 from "../assets/images/graphics-24.jpg";
-import graphics25 from "../assets/images/graphics-25.jpg";
-import graphics26 from "../assets/images/graphics-26.jpg";
-import graphics27 from "../assets/images/graphics-27.jpg";
+import flier1 from '../assets/images/flier1.jpg';
+import flier2 from '../assets/images/flier2.jpg';
+import flier3 from '../assets/images/flier3.jpg';
+import flier4 from '../assets/images/flier4.jpg';
+import flier5 from '../assets/images/flier5.jpg';
+import flier6 from '../assets/images/flier6.jpg';
+import flier7 from '../assets/images/flier7.jpg';
+import flier8 from '../assets/images/flier8.jpg';
+import flier9 from '../assets/images/flier9.jpg';
+import flier10 from '../assets/images/flier10.jpg';
+import flier11 from '../assets/images/flier11.jpg';
+import flier12 from '../assets/images/flier12.jpg';
+import flier13 from '../assets/images/flier13.jpg';
+import flier14 from '../assets/images/flier14.jpg';
+import flier15 from '../assets/images/flier15.jpg';
+import flier16 from '../assets/images/flier16.jpg';
+import flier17 from '../assets/images/flier17.jpg';
+import flier18 from '../assets/images/flier18.jpg';
+import flier19 from '../assets/images/flier19.jpg';
+import flier20 from '../assets/images/flier20.jpg';
+import flier21 from '../assets/images/flier21.jpg';
+import flier22 from '../assets/images/flier22.jpg';
+import flier23 from '../assets/images/flier23.jpg';
+import flier24 from '../assets/images/flier24.jpg';
+import flier25 from '../assets/images/flier25.jpg';
+import flier26 from '../assets/images/flier26.jpg';
+import flier27 from '../assets/images/flier27.jpg';
+import flier28 from '../assets/images/flier28.jpg';
+import logo1 from '../assets/images/logo1.jpg';
+import logo2 from '../assets/images/logo2.jpg';
+import logo3 from '../assets/images/logo3.jpg';
+import logo4 from '../assets/images/logo4.jpg';
+import logo5 from '../assets/images/logo5.jpg';
+import logo6 from '../assets/images/logo6.jpg';
+import logo7 from '../assets/images/logo7.jpg';
+import logo8 from '../assets/images/logo8.jpg';
+import logo9 from '../assets/images/logo9.jpg';
+import manipulation1 from '../assets/images/manipulation1.jpg';
+import manipulation2 from '../assets/images/manipulation2.jpg';
+import manipulation3 from '../assets/images/manipulation3.jpg';
+import manipulation4 from '../assets/images/manipulation4.jpg';
+import manipulation5 from '../assets/images/manipulation5.jpg';
+import manipulation6 from '../assets/images/manipulation6.jpg';
+import manipulation7 from '../assets/images/manipulation7.jpg';
 
 export const projects: {
   name?: string;
   image: string;
-  category: string;
+  category: 'Flier' | 'Logo & Branding' | 'Photo Manipulation';
   otherImages: string[];
 }[] = [
   {
-    image: graphics1,
-    category: "Flier",
-    otherImages: [graphics1, graphics2, graphics3],
+    image: flier1,
+    category: 'Flier',
+    otherImages: [flier1, flier2, flier3],
   },
   {
-    image: graphics4,
-    category: "Logo & Branding",
-    otherImages: [graphics4, graphics5, graphics6],
+    image: logo1,
+    category: 'Logo & Branding',
+    otherImages: [logo1, logo2, logo3],
   },
   {
-    image: graphics7,
-    category: "Photo Manipulation",
-    otherImages: [graphics7, graphics8, graphics9],
+    image: manipulation1,
+    category: 'Photo Manipulation',
+    otherImages: [manipulation1, manipulation2, manipulation3],
   },
   {
-    image: graphics10,
-    category: "Flier",
-    otherImages: [graphics10, graphics11, graphics12],
+    image: flier4,
+    category: 'Flier',
+    otherImages: [flier4, flier5, flier6],
   },
   {
-    image: graphics13,
-    category: "Logo & Branding",
-    otherImages: [graphics13, graphics14, graphics15],
+    image: logo4,
+    category: 'Logo & Branding',
+    otherImages: [logo4, logo5, logo6],
   },
   {
-    image: graphics16,
-    category: "Logo & Branding",
-    otherImages: [graphics16, graphics17, graphics18],
+    image: flier7,
+    category: 'Flier',
+    otherImages: [flier7, flier8, flier9],
   },
   {
-    image: graphics19,
-    category: "Flier",
-    otherImages: [graphics19, graphics20, graphics21],
+    image: flier10,
+    category: 'Flier',
+    otherImages: [flier10, flier11, flier12],
   },
   {
-    image: graphics22,
-    category: "Photo Manipulation",
-    otherImages: [graphics22, graphics23, graphics24],
+    image: logo7,
+    category: 'Logo & Branding',
+    otherImages: [logo7, logo8, logo9],
   },
   {
-    image: graphics25,
-    category: "Logo & Branding",
-    otherImages: [graphics25, graphics26, graphics27],
+    image: flier13,
+    category: 'Flier',
+    otherImages: [flier13, flier14, flier15],
+  },
+  {
+    image: flier16,
+    category: 'Flier',
+    otherImages: [flier16, flier17, flier18],
+  },
+  {
+    image: flier19,
+    category: 'Flier',
+    otherImages: [flier19, flier20, flier21],
+  },
+  {
+    image: flier22,
+    category: 'Flier',
+    otherImages: [flier22, flier23, flier24],
+  },
+  {
+    image: manipulation4,
+    category: 'Photo Manipulation',
+    otherImages: [manipulation4, manipulation5, manipulation6, manipulation7],
+  },
+  {
+    image: flier25,
+    category: 'Flier',
+    otherImages: [flier25, flier26, flier27, flier28],
   },
 ];

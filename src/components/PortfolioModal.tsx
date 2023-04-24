@@ -1,6 +1,6 @@
-import React from "react";
-import { FaChevronLeft, FaChevronRight, FaTimes } from "react-icons/fa";
-import { PortfolioModalContainer } from "../styles/components/PortofolioModal.styled";
+import React from 'react';
+import { FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
+import { PortfolioModalContainer } from '../styles/components/PortofolioModal.styled';
 
 const PortfolioModal = ({
   projectsModalOpen,
@@ -40,7 +40,7 @@ const PortfolioModal = ({
   return (
     <PortfolioModalContainer>
       <span
-        className="close-icon"
+        className='close-icon'
         onClick={() => {
           closeProjectsModal();
           setImageCount(0);
@@ -49,13 +49,17 @@ const PortfolioModal = ({
         <FaTimes />
       </span>
       <div>
-        <div className="image-container">
-          <img src={selectedProject.otherImages[imageCount]} alt="" />
+        <div className='image-container'>
+          <img
+            src={selectedProject.otherImages[imageCount]}
+            loading='lazy'
+            alt=''
+          />
         </div>
-        <span className="arrow-icon left" onClick={decreaseImageCount}>
+        <span className='arrow-icon left' onClick={decreaseImageCount}>
           <FaChevronLeft />
         </span>
-        <span className="arrow-icon right" onClick={increaseImageCount}>
+        <span className='arrow-icon right' onClick={increaseImageCount}>
           <FaChevronRight />
         </span>
       </div>
