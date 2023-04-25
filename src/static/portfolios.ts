@@ -50,9 +50,9 @@ export const projects: {
   otherImages: string[];
 }[] = [
   {
-    image: flier1,
+    image: flier3,
     category: 'Flier',
-    otherImages: [flier1, flier2, flier3],
+    otherImages: [flier3 flier5, flier4],
   },
   {
     image: logo1,
