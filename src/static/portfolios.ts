@@ -52,7 +52,7 @@ export const projects: {
   {
     image: flier3,
     category: 'Flier',
-    otherImages: [flier3 flier5, flier4],
+    otherImages: [flier3, flier5, flier4],
   },
   {
     image: logo1,
